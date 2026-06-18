@@ -1,119 +1,19 @@
-# Global-Terrorism-Data-Analysis
-Exploratory Data Analysis of Global Terrorism Dataset using Python, Pandas, Matplotlib and Seaborn.
+This directory includes a few sample datasets to get you started.
 
-The original dataset was too large for GitHub upload.
-A sample dataset is provided for demonstration purposes.
+*   `california_housing_data*.csv` is California housing data from the 1990 US
+    Census; more information is available at:
+    https://docs.google.com/document/d/e/2PACX-1vRhYtsvc5eOR2FWNCwaBiKL6suIOrxJig8LcSBbmCbyYsayia_DvPOOBlXZ4CAlQ5nlDD8kTaIDRwrN/pub
 
-# Global Terrorism Data Analysis
+*   `mnist_*.csv` is a small sample of the
+    [MNIST database](https://en.wikipedia.org/wiki/MNIST_database), which is
+    described at: http://yann.lecun.com/exdb/mnist/
 
-## Project Overview
+*   `anscombe.json` contains a copy of
+    [Anscombe's quartet](https://en.wikipedia.org/wiki/Anscombe%27s_quartet); it
+    was originally described in
 
-This project analyzes global terrorism incidents using the Global Terrorism Database (GTD). The objective is to identify trends, affected regions, attack types, and changes in terrorism activities over time through exploratory data analysis and visualization techniques.
+    Anscombe, F. J. (1973). 'Graphs in Statistical Analysis'. American
+    Statistician. 27 (1): 17-21. JSTOR 2682899.
 
----
-
-## Objectives
-
-- Analyze terrorism incidents across countries and years.
-- Identify the most affected countries and regions.
-- Explore the most common attack types.
-- Examine yearly trends in terrorist activities.
-- Create visualizations to support data-driven insights.
-
----
-
-## Dataset
-
-Global Terrorism Database (GTD)
-
-The dataset contains information about terrorist incidents worldwide, including:
-
-- Year of attack
-- Country
-- Region
-- Attack type
-- Target type
-- Casualties
-- Weapon type
-
----
-
-## Technologies Used
-
-- Python
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
-- Jupyter Notebook
-
----
-
-## Data Analysis Process
-
-### Data Cleaning
-
-- Removed missing values.
-- Handled inconsistent data types.
-- Renamed columns for better readability.
-
-### Exploratory Data Analysis (EDA)
-
-- Terrorist incidents by year.
-- Most affected countries.
-- Most common attack methods.
-- Regional analysis.
-- Casualty analysis.
-
-### Data Visualization
-
-- Bar Charts
-- Line Charts
-- Count Plots
-- Heatmaps
-
----
-
-## Key Findings
-
-- Significant growth in terrorist incidents after 2011.
-- Iraq, Afghanistan, and Pakistan experienced the highest number of attacks.
-- Bombing and explosive attacks were the most frequent attack types.
-- Certain regions consistently showed higher terrorism activity.
-
----
-
-## Project Structure
-
-
-
-Global-Terrorism-Data-Analysis/
-
-│
-
-├── terrorism_analysis.ipynb
-
-├── sample_data.csv
-
-├── images/
-
-├── README.md
-
-└── requirements.txt
-
-
----
-
-## Future Improvements
-
-- Build interactive dashboards using Power BI or Tableau.
-- Apply machine learning models for trend prediction.
-- Create geographic visualizations using maps.
-
----
-
-## Author
-
-Dr. Ghada Elfeki
-
-Data Analyst | Molecular Biologist 
+    and our copy was prepared by the
+    [vega_datasets library](https://github.com/altair-viz/vega_datasets/blob/4f67bdaad10f45e3549984e17e1b3088c731503d/vega_datasets/_data/anscombe.json).
